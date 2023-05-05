@@ -1,0 +1,67 @@
+/* General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gantari', 'sans-serif';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80')no-repeat center center/ cover;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    background-color: #262626;
+    padding: 5px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.main-content {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .textarea {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.button-area button {
+    background-color: #262626;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+}
