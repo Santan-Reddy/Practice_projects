@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*This is used for the align-items property to work properly*/
+    font-family: cursive;
+    background-color: slateblue;
+}
+
+.calendar-container {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    /*used for border radius in top when the month name is overflowed*/
+}
+
+.month-name {
+    margin: 0;
+    background-color: orangered;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.day-name {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year {
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+    margin: 20px 0;
+}
